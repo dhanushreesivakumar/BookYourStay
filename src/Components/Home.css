@@ -1,0 +1,25 @@
+/* Home.css */
+.homeback
+{
+    background-image: url(./assests/bg4.jpeg);
+      height: 500px;
+      width:100%;
+}
+.span
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(32, 83, 134);
+    float:right;
+    
+}
+h1{
+    font-size: 50px;
+    
+
+}
+h4{
+    color:beige;
+    margin-left: 500px;
+    font-size: 30px;
+    font-family:monospace;
+}

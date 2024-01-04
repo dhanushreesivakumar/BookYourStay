@@ -1,0 +1,83 @@
+
+/* Signup.css */
+.body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./assests/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 8px;
+    background:transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 500px;
+  }
+  
+  #firstName {
+    padding: 8px;
+    margin-bottom: 12px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 400px;
+    margin-left: 50px;
+    box-sizing: border-box;
+}
+#lastName{
+    padding: 8px;
+    margin-left: 50px;
+    margin-bottom: 12px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 400px;
+    box-sizing: border-box;
+}
+#email {
+    padding: 8px;
+    margin-left: 50px;
+    margin-bottom: 12px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 400px;
+    box-sizing: border-box;
+}
+#password {
+    padding: 8px;
+    margin-left: 50px;
+    margin-bottom: 12px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 400px;
+    box-sizing: border-box;
+  }
+  
+  #allowExtraEmails {
+    width: auto;
+    margin-right: 6px;
+  }
+  
+  .sign {
+    padding: 10px;
+    margin-top: 16px;
+    border: none;
+    border-radius: 90px;
+    width: 200px;
+    margin-left: 150px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sign:hover {
+    background-color: #0056b3;
+  }
